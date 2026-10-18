@@ -1,0 +1,25 @@
+
+{
+  "name": "playwright-test-agents-v2",
+  "version": "1.0.0",
+  "description": "A Playwright Test Agents portfolio demonstrating AI-assisted test planning, test generation, and test healing.",
+  "scripts": {
+    "test": "playwright test",
+    "test:login": "playwright test tests/login",
+    "test:chromium": "playwright test --project=chromium",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "test-automation",
+    "qa",
+    "ai-agents"
+  ],
+  "author": "Saud Malik",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5"
+  }
+}
